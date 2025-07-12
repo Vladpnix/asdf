@@ -34,8 +34,9 @@ export KERL_CONFIGURE_OPTIONS="--disable-debug --without-javac"
 asdf plugin add erlang
 asdf plugin add elixir
 asdf list all erlang
-asdf install erlang 23.2.1
+asdf install erlang 28.0.1
 asdf list all elixir
-asdf install elixir 1.11.2-otp-23
-asdf set erlang 23.2.1
+asdf install elixir 1.18.4-otp-28
+asdf set erlang 28.0.1
+asdf set elixir 1.18.4-otp-28
 ```
