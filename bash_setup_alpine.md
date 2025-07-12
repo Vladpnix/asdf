@@ -1,13 +1,18 @@
 ```
 apk add bash bash-completion shadow
 ```
+```
 usermod -s /bin/bash user
--- OR --
+```
+var1
+```
 chsh -s /bin/bash
 cat /etc/passwd | grep $(whoami)
--- OR --
+```
+var2
+```
 chsh `username`
-
+```
 .bash_profile
 ```
 if [ -f ~/.bashrc ]; then
