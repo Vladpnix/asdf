@@ -1,16 +1,20 @@
 ```
-apk add go vim git make musl-dev curl bash shadow bash-completion autoconf ncurses-dev
-apk add gcc build-base freetype-dev libpng-dev openblas-dev openssl-dev openssl
+apk add go vim git make musl-dev curl autoconf ncurses-dev gcc build-base freetype-dev libpng-dev openblas-dev openssl-dev openssl
 ```
 
-```
-apk add unixodbc unixodbc-dev yaml-dev
-apk add flex flex-dev
-```
-```
-apk add openjdk21
-apk add wxwidgets wxwidgets-dev # visual
-```
+> [!NOTE]
+> for ruby
+
+> apk add unixodbc unixodbc-dev yaml-dev
+
+> apk add flex flex-dev
+
+> [!TIP]
+> java and visual
+
+> apk add openjdk21
+
+> apk add wxwidgets wxwidgets-dev
 ```
 git clone https://github.com/asdf-vm/asdf.git --branch v0.18.0
 ```
