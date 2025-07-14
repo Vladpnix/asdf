@@ -1,5 +1,5 @@
 ```
-apk add go vim git make musl-dev curl autoconf ncurses-dev gcc build-base freetype-dev libpng-dev openblas-dev openssl-dev openssl unixodbc unixodbc-dev yaml-dev
+apk add go vim git make musl-dev curl autoconf ncurses-dev gcc build-base freetype-dev libpng-dev openblas-dev openssl-dev openssl unixodbc unixodbc-dev yaml-dev inotify-tools
 ```
 
 > apk add flex flex-dev
